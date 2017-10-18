@@ -1,0 +1,92 @@
+body{
+	color: black;
+	background-color: white;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+
+}
+
+h1{
+	font-size: 48px;
+	margin-top: 70px;
+	text-align:center;
+	text-transform: uppercase;
+}
+
+p{
+	font-size: 20px;
+	text-align: center;
+	color: white;
+}
+
+#container{
+	width:960px;
+	margin: 0 auto;
+}
+
+#head{
+	width: 960px;
+	height: 100px;
+}
+
+#temperature{
+	width: 230px;
+	height: 60px;
+	background-color: white;
+	border: 1px black solid;
+	color: black;
+	float:left;
+	font-size: 40px;
+	font-weight: 100;
+	text-align: center;
+	margin: 0 365px 20px 365px;
+}
+
+#buttons{
+	margin: 0 365px 20px 365px;
+	background-color: red;
+
+}
+
+#celsiusButton{
+	width: 100px;
+	height: 60px;
+	background-color: black;
+	/*border-radius: 20px;*/
+	margin-right: 20px;
+	float: left;
+}
+
+#fahrenheitButton{
+	width: 100px;
+	height: 60px;
+	float: right;
+	background-color: black;
+	/*border-radius: 20px;*/
+}
+
+#reset{
+	width: 232px;
+	height: 60px;
+	float: left;
+	background-color: black;
+	margin: 20px 0 0 0;
+	text-transform: uppercase;
+}
+
+#solution{
+	background: none;
+	border: none;
+	color: black;
+	float: left;
+	font-size: 200px;
+	font-weight: 300;
+	height: 300px;
+	margin-top: 20px;
+	text-align: center;
+	width: 960px;
+}
+
+.clear{
+	clear:both;
+}
