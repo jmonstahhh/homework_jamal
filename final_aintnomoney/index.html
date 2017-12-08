@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Aint Got No Money in the Bank</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,900" rel="stylesheet">
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div id="budget">
+    <header>
+      <h1>Aint Got No Money in the Bank</h1>
+      <h3>Monthly Budget</h3>
+    </header><!-- header ends-->
+
+    <div id="budgetHolder">
+      <div id="form">
+        <form name="budgetForm">
+          <div id="inputs">
+            <h4><i aria-hidden="true"></i> Rent/Utilities</h4>
+            <input type="text" name="rentUtilities" placeholder="0" value=""/>
+            <h4><i aria-hidden="true"></i> Savings</h4>
+            <input type="text" name="savings" placeholder="0" value=""/>
+            <h4><i aria-hidden="true"></i> Cell Phone</h4>
+            <input type="text" name="cellphone" placeholder="0" value=""/>
+            <h4><i aria-hidden="true"></i> Food</h4>
+            <input type="text" name="food" placeholder="0" value=""/>
+            <h4><i aria-hidden="true"></i> Other Expenses</h4>
+            <input type="text" name="other" placeholder="0" value=""/>
+          </div><!-- inputs end here -->
+          <div id="monthlyExpenses">
+            <h4><i aria-hidden="true"></i> Monthly Expenses Total</h4>
+            <input type="text" id="answer" name="Result" placeholder="$0.00" value="" readonly/>
+          </div><!-- expenses ends -->
+          <div id="monthlySalary">
+            <h4><i aria-hidden="true"></i> Monthly Salary</h3>
+            <input type="text" name="salary" placeholder="0" value="" />
+          </div><!-- monthly salary ends -->
+          <div id="spendMoney">
+            <h4><i aria-hidden="true"></i> Money to Spend</h4>
+            <input type="text" id="answer2" name="spend" placeholder="$0.00" value="" readonly/>
+          </div><!-- spend money ends -->
+        
+      </div><!-- form ends -->
+      <div id="submission">
+        <input class="btn btn-primary btn-width" type="button" name="button" value="Submit" onClick="total()"/>
+        <input class="btn btn-success btn-width" type="reset" value="Reset"/>
+      </div><!-- submission ends -->
+      </form><!-- ends -->
+    </div> <!--budget holder ends-->
+    <script  src="js/index.js"></script>
+</body>
+</html>
